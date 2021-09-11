@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section class=" sub-header">
+<nav>
+    <a href="website.html"><img src="image/logo.png" alt="logo"></a>
+    <din class="navlink" id="navlink1">
+        <i class="fa fa-times"  onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="website.html">Home</a></li>
+            <li><a href="about1.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            
+        </ul>
+    </din>
+    <i class="fa fa-bars" onclick="showMenu()" ></i>
+</nav>
+<h1>Our course</h1>
+    </section>
+
+<!-- --------------------Course--------------------- -->
+<section class="course">
+    <h1>
+        Course we offer
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Aperiam itaque dolore eligendi repellat vero voluptate alias nulla quisquam <br>ex inventore numquam saepe, sed esse autem id dolores ab, delectus deserunt.</p>
+<div class="row">
+ <div class="coloumn">
+        <h3>Intermediate</h3>
+        
+        <p>   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis perspiciatis officia eius sunt molestiae doloribus earum ex deserunt provident ab voluptatem reprehenderit, odit beatae tempora sit numquam architecto laudantium totam!</p>
+    </div>
+    <div class="coloumn">
+        <h3>Degree</h3>
+        
+        <p>   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis perspiciatis officia eius sunt molestiae doloribus earum ex deserunt provident ab voluptatem reprehenderit, odit beatae tempora sit numquam architecto laudantium totam!</p>
+    </div>
+    <div class="coloumn">
+        <h3>post Graduation</h3>
+        
+        <p>   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis perspiciatis officia eius sunt molestiae doloribus earum ex deserunt provident ab voluptatem reprehenderit, odit beatae tempora sit numquam architecto laudantium totam!</p>
+    </div>
+</div>
+
+</section>
+<!-- ---------------------faclities-------------------- -->
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+    <div class="row">
+    <div class="facilitescolum">
+        <img src="masjid.png" alt="masjid">
+        <h3>Masjid</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, suscipit consectetur. Cumque, nulla. Eveniet voluptate harum blanditiis similique tempore mollitia minus. Accusamus quisquam saepe, odio explicabo dolorem vitae sunt vero?</p>
+    </div>
+    <div class="facilitescolum" >
+        <img id="facilitie" src="cafe.png" alt="cafe">
+        <h3>Cafe</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, suscipit consectetur. Cumque, nulla. Eveniet voluptate harum blanditiis similique tempore mollitia minus. Accusamus quisquam saepe, odio explicabo dolorem vitae sunt vero?</p>
+    </div>
+    <div class="facilitescolum">
+        <img  id="facilitie" src="hostel.png" alt="hostel">
+        <h3>Hall</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, suscipit consectetur. Cumque, nulla. Eveniet voluptate harum blanditiis similique tempore mollitia minus. Accusamus quisquam saepe, odio explicabo dolorem vitae sunt vero?</p>
+    </div>
+    
+    </div>
+
+</section>
+<!-- ----------------footer-------------- -->
+    <section class="footer">
+        <h4> About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minus dicta quas officiis odit veniam cumque quis aut<br> porro accusamus iste natus sunt mollitia tempore? Molestiae laudantium in alias repellendus.</p>
+    <div class="icons">
+        <i class="fas fa-facebook"></i>
+        <i class="fas fa-instagram"></i>
+        <i class="fas fa-twitter"></i>
+        <i class="fas fa-linkedin"></i>
+    </div>
+      
+        <p>Made with   <i class="fas fa-heart-o"></i> by Easy Tutorials </p>
+    </section>
+
+
+    <!-- ------javascript for togle menu--- -->
+ <script> 
+        var navlink1=document.getElementById("navlink1")
+        function  showMenu(){
+         navlink1.style.right="0";
+        }
+        function hideMenu(){
+           navlink1.style.right="-200";
+        }
+        
+        </script>
+
+</body>
+</html>

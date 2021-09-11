@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section class=" sub-header">
+<nav>
+    <a href="website.html"><img src="image/logo.png" alt="logo"></a>
+    <din class="navlink" id="navlink1">
+        <i class="fa fa-times"  onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="website.html">Home</a></li>
+            <li><a href="about1.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            
+        </ul>
+    </din>
+    <i class="fa fa-bars" onclick="showMenu()" ></i>
+</nav>
+<h1>Contact Us</h1>
+    </section>
+    <!-- -----------------contact us page--------- -->
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                <i class="fas fa-home"></i>
+                <span>
+                    <h5>XYZ ROAD, ABC Buildinf</h5>
+                    <p>Karachi,pakistan</p>
+                </span>
+            </div>
+            
+            <div>
+                <i class="fas fa-phone"></i>
+                <span>
+                    <h5>+92306-1554531</h5>
+                    <p>Monday to Stunday</p>
+                </span>
+            </div>
+            <div>
+                <i class="fas fa-eneloper-o"></i>
+                <span>
+                    <h5>info@gmai.com</h5>
+                    <p>Email Us Your query</p>
+                </span>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter your name " required>
+                    <input type="email" placeholder="Enter your Email " required>
+                    <input type="text" placeholder="Enter your subject " required>
+                    <textarea  rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="herobtn red-brn">Send Message</button>
+                </form>
+
+            </div>
+        </div>
+
+
+
+
+
+
+    </section>
+<!-- ---------------------footer---------------- -->
+
+<section class="footer">
+    <h4> About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minus dicta quas officiis odit veniam cumque quis aut<br> porro accusamus iste natus sunt mollitia tempore? Molestiae laudantium in alias repellendus.</p>
+<div class="icons">
+    <i class="fas fa-facebook"></i>
+    <i class="fas fa-instagram"></i>
+    <i class="fas fa-twitter"></i>
+    <i class="fas fa-linkedin"></i>
+</div>
+  
+    <p>Made with   <i class="fas fa-heart-o"></i> by Easy Tutorials </p>
+</section>
+
+
+<!-- ------javascript for togle menu--- -->
+<script> 
+    var navlink1=document.getElementById("navlink1")
+    function  showMenu(){
+     navlink1.style.right="0";
+    }
+    function hideMenu(){
+       navlink1.style.right="-200";
+    }
+    
+    </script>
+
+</body>
+</html>
